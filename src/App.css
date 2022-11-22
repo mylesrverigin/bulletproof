@@ -1,0 +1,90 @@
+  .body{
+    display: inline-grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+  .top_section{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: 300px;
+    
+  }
+  h4{
+    margin: 0%;
+  }
+  .profile_pic{
+    width: 200px;
+    border-radius: 10%;
+  }
+  ul{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    list-style-position: inside;
+  }
+  .socials{
+    display: inline-grid;
+    grid-template-columns: auto;
+    width: 350px;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  .socialspic{
+    width: 6rem;
+    height: 6rem;
+    justify-content: center;
+  }
+  p{
+    margin: auto;
+  }
+  .prouds{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    float: left;
+  }
+  .personal_info{
+    display: inline-grid;
+    justify-content: center;
+
+
+  }
+  .personal{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    padding-bottom:25% ;
+  }
+  .game_container{
+    height: 800px;
+    width: 600px;
+    border-color: black;
+    border-style: groove;
+    overflow: hidden;
+  }
+  .slide_deck{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+  }
+  .inner_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .button_cont{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .button{
+    border-style: inset;
+    width: 6rem;
+    height: 2.5rem;
+    border-color: darkolivegreen;
+    border-width: 1px;
+  }
+
+.para{
+    word-break: break-all;
+}
