@@ -1,90 +1,102 @@
-  .body{
-    display: inline-grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-  }
-  .top_section{
-    display: inline-grid;
-    grid-template-columns: auto auto auto auto;
-    width: 100%;
-    height: 300px;
-    
-  }
-  h4{
-    margin: 0%;
-  }
-  .profile_pic{
-    width: 200px;
-    border-radius: 10%;
-  }
-  ul{
-    margin: 0%;
-    padding: 0%;
-    list-style-type: none;
-    list-style-position: inside;
-  }
-  .socials{
-    display: inline-grid;
-    grid-template-columns: auto;
-    width: 350px;
-    justify-content: center;
-    vertical-align: middle;
-  }
-  .socialspic{
-    width: 6rem;
-    height: 6rem;
-    justify-content: center;
-  }
-  p{
-    margin: auto;
-  }
-  .prouds{
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    width: fit-content;
-    float: left;
-  }
-  .personal_info{
-    display: inline-grid;
-    justify-content: center;
+.top_section{
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+/* ********************************************** */
+.player_input_area{
+  display: grid;
+  justify-self: center;
+  width: 35rem;
+  height: 45rem;
+  border-style: inset;
+  border-width: 2px;
+}
+.player_story_board{
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 2vh;
+  justify-self: center;
+  width: 30rem;
+  height: 35rem;
+  border-style: inset;
+  border-width: 2px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.player_text_input,.dm_text_input{
+  position: relative;
+  justify-self: center;
+  width: 20rem;
+  height: 4rem;
+}
+/* ************************************************** */
+.dm_input_area{
+  display: grid;
+  justify-self: center;
+  width: 35rem;
+  height: 30rem;
+  border-style: inset;
+  border-width: 2px;
+}
+.dm_story_board{
+  display: grid;
+  grid-template-columns: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  justify-self: center;
+  width: 30rem;
+  height: 20rem;
+  border-style: inset;
+  border-width: 2px;
+  margin-top: 2vh;
+}
+ 
+/* ***************************************************** */
+
+.submitButton{
+  position: relative;
+  justify-self: center;
+  width: 5rem;
+  height: 2rem;
+}
+
+/* ************************************************** */
+.bottom_section{
+  display: grid;
+  grid-template-columns: auto auto;
+  min-width:75vw;
+  position: relative;
+  justify-self: center;
+  margin-top: 5vh;
+}
+.players_statblock{
+  position: relative;
+  justify-self: left;
+  margin-left: 10vw;
+}
+.roll_card_events{
+  margin-right: 10vw;
+  position: relative;
+  justify-self: right;
+  width: fit-content;
+  max-width: 30vw;
+  max-height: 15vh;
+  overflow: scroll;
+  border-style: ridge;
+}
 
 
-  }
-  .personal{
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    text-align: center;
-    padding-bottom:25% ;
-  }
-  .game_container{
-    height: 800px;
-    width: 600px;
-    border-color: black;
-    border-style: groove;
-    overflow: hidden;
-  }
-  .slide_deck{
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-  }
-  .inner_container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
-  .button_cont{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-  }
-  .button{
-    border-style: inset;
-    width: 6rem;
-    height: 2.5rem;
-    border-color: darkolivegreen;
-    border-width: 1px;
-  }
+/* ******************************************************* */
 
-.para{
-    word-break: break-all;
+.story_card{
+  justify-self: center;
+  position: relative;
+  text-align: center;
+  width: 20rem;
+  height: fit-content;
+  border-style: double;
+  border-width: 1px;
+  margin: 0.5rem;
+ 
 }
